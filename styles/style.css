@@ -28,6 +28,9 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    font-family: monospace;
+    background-color: black;
+    color: green;
 }
 
 section {
@@ -128,4 +131,15 @@ footer {
 
 .auth-container button {
     margin: 10px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures img {
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
 }
